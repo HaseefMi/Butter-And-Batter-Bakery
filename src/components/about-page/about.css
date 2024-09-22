@@ -1,0 +1,55 @@
+.about-container {
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+    font-size: 2.5em;
+    color: purple;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section-title {
+    font-size: 1.8em;
+    color: rgb(252, 137, 156);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.about-paragraph {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-list-item {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    .about-title {
+        font-size: 2em;
+    }
+    
+    .about-section-title {
+        font-size: 1.5em;
+    }
+    
+    .about-list-item {
+        font-size: 1em;
+    }
+}

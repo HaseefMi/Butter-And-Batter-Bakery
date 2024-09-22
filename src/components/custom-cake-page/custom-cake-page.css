@@ -1,0 +1,141 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.column:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.column h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.column.weddings {
+    border: 2px solid #e0aaff;
+}
+
+.column.weddings h3 {
+    color: #7b2cbf;
+}
+
+.column.birthdays {
+    border: 2px solid #ffafcc;
+}
+
+.column.birthdays h3 {
+    color: #ff5d8f;
+}
+
+.column.special-events {
+    border: 2px solid #a0c4ff;
+}
+
+.column.special-events h3 {
+    color: #3a86ff;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.faq-section {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.faq-section h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.faq-item li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+}
+
+.intro-section {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro-section h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.intro-section h2 {
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.intro-section p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0 auto;
+    max-width: 600px;
+}
+

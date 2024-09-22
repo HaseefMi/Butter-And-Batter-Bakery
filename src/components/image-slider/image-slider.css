@@ -1,0 +1,135 @@
+.img-slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.img-slider-name {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    text-align: center;
+    width: 90%;
+    max-width: 80%;
+}
+
+.img-slider-img {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img-slider-button {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-slider-button:hover {
+    background-color: rgb(172, 14, 172);
+}
+
+.img-slider-button:focus {
+    outline: none;
+}
+
+.img-slider-button.prev {
+    left: 10px;
+}
+
+.img-slider-button.next {
+    right: 10px;
+}
+
+.img-slider-button.pause {
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media (max-width: 1024px) {
+    .img-slider-container {
+        max-width: 80%;
+    }
+
+    .img-slider-name {
+        font-size: 1.3em;
+    }
+
+    .img-slider-button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-slider-container {
+        max-width: 90%;
+    }
+
+    .img-slider-name {
+        font-size: 1.2em;
+    }
+
+    .img-slider-button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .img-slider-button.pause {
+        font-size: 1.2rem;
+        padding: 10px;
+        top: 85%;
+    }
+}
+
+@media (max-width: 480px) {
+    .img-slider-container {
+        max-width: 95%;
+    }
+
+    .img-slider-name {
+        font-size: 1em;
+    }
+
+    .img-slider-button {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+
+    .img-slider-button.pause {
+        top: 80%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .img-slider-img {
+        max-height: 900px;
+    }
+}

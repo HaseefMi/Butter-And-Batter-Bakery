@@ -1,0 +1,44 @@
+.hero-container {
+    display: flex;
+    height: 50vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: purple;
+    max-width: 100%;
+    margin: 0 auto; 
+    border-radius: 10px;
+}
+
+.hero-text {
+    flex: 1; 
+    padding-right: 20px; 
+}
+
+.made-with-love {
+    font-size: 16px;
+    color: white;
+}
+
+.heading-hero {
+    font-size: 32px;
+    color: white;
+}
+
+.hero-pastry-image {
+    max-width: 25vw; 
+    height: auto; 
+}
+
+@media (max-width: 480px) {
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-pastry-image {
+        max-width: 100%; 
+        width: auto; 
+        max-width: 25vh; 
+    }
+}

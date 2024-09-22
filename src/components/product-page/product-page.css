@@ -1,0 +1,33 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+#description {
+    font-style: italic;
+}
+
+@media (max-width: 480px) {
+    .popup {
+        width: 65%;
+        margin-left: -130px;
+    }
+}

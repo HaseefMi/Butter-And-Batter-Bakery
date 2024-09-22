@@ -1,0 +1,43 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    position: relative;
+    border: 1px black solid;
+    margin-bottom: 20px;
+}
+
+.nav-logo {
+    height: 70px;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.nav-item {
+    color: black;
+    margin: 0 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-item:hover {
+    color: purple;
+}
+
+.nav-item-bakery {
+    position: relative;
+}
+
+.shopping-bag {
+    height: 25px;
+    cursor: pointer;
+}
+
+.nav-price {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 20px;
+}

@@ -1,0 +1,78 @@
+.custom-cake-form-container {
+    width: 60%; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.error {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.button {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: purple;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    opacity: 0.9;
+}
+
+.contact-container, .event-container, .cake-details-container, .design-container, .delivery-pickup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
